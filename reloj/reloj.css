@@ -1,0 +1,46 @@
+h1{text-align: center;}
+#hora{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    background-color: aqua;
+    width: fit-content;
+    border-radius: 25px; 
+    padding: 25px;
+
+}
+body{
+    background-image: url("yue-wu-753L05Oz-1M-unsplash.jpg ");
+
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fecha{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 900;
+    background-color: aqua;
+    width: fit-content;
+    padding: 25px;
+    display: flex;
+align-items: center;
+}
+.frases{
+    padding: 25px;
+    background-color:greenyellow ;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px; 
+    font-size: 20px;   
+    color:blue;
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+#container{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    background-color: aquamarine;
+}
+#containerDos{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    flex-wrap: wrap;
+    background-color: rgb(76, 162, 243);
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
