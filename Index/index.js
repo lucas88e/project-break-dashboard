@@ -5,3 +5,4 @@ const btnReloj=document.getElementById("btnReloj")
 
 import { randomImg } from "../reloj/function.js";
 randomImg()
+ 

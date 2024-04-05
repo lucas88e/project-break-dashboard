@@ -1,0 +1,119 @@
+body {
+    color: white;
+
+}
+
+.link {
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+}
+
+#containerEnlace {
+    background-color: rgba(97, 91, 91, 0.781);
+    padding: 50px;
+    list-style: none;
+    border-radius: 25px;
+
+}
+
+#links {
+    text-decoration: none;
+    color: red;
+
+
+}
+
+#sectionReloj {
+    text-align: center;
+}
+
+#hora {
+    font-size: 50px;
+}
+
+#fecha {
+
+    justify-content: center;
+
+    font-weight: 900;
+
+    display: flex;
+    align-items: center;
+}
+
+#total {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#sectionTiempo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#containerTiempos {
+    justify-content: center;
+    display: flex;
+    gap: 3rem;
+    font-size: 25px;
+
+}
+#imgTiempo{
+    width:100px;
+    height: auto;
+}
+
+#containerDos {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+#fecha{
+ 
+    font-size: 30px;
+    border-radius: 25px;
+    justify-content: center;
+ 
+    font-weight: 900;
+    
+    background-color: rgba(194, 206, 149, 0.932);
+    width: fit-content;
+    padding: 25px;
+    display: flex;
+align-items: center;
+margin-top: 25px;
+}
+.frases{
+    padding: 25px;
+    background-color:rgba(172, 255, 47, 0.726) ;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px; 
+    font-size: 20px;   
+    color:blue;
+    font-weight: bold;
+}
+#semana{
+    color:rgb(179, 27, 27);
+    margin-left:25px
+}
+h1{
+    font-size: 25px ;
+}
+#containerContraseñas{
+    font-size: 35px;
+    margin-top: 50px;
+    color: wheat;
+    background-color: rgba(97, 91, 91, 0.781);
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+}

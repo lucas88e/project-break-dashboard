@@ -1,5 +1,5 @@
 
-const container = document.getElementById("container")
+const containerContraseñas = document.getElementById("containerContraseñas")
 const btnContraseña = document.getElementById("btnContraseña")
 const inputNumb = document.getElementById("inputNumb")
 import { randomImg } from "../reloj/function.js";
@@ -48,7 +48,7 @@ function random() {
     let length = parseInt(inputNumb.value) // Función para selecionar la longitud de caracteres introducida en el input
     let password = generarContraseña(length)
 
-    container.innerHTML = password
+    containerContraseñas.innerHTML = `Aquí tiene su contraseña segura:<p>${password}</p>`
 
 }
 btnContraseña.addEventListener("click", () => {

@@ -1,7 +1,31 @@
 body{
     color: white;
+    font-size: 25px;
 }
+h1{text-align: center;}
 #link{
     text-decoration: none;
-    color:wheat
+    font-size: 30px;
+    margin-left: 30px;
+}
+#sectionContraseñas{
+    text-align: center;
+}
+#containerContraseñas{
+    font-size: 35px;
+    margin-top: 50px;
+    color: wheat;
+    background-color: rgba(97, 91, 91, 0.781);
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 35rem;   
+     margin-right: 35rem;
+
+}
+button{
+    background-color: rgba(27, 27, 240, 0.836);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
 }

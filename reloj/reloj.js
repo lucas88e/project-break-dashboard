@@ -1,4 +1,4 @@
-const container = document.querySelector(".container")
+const containerReloj = document.querySelector(".containerReloj")
 const frases = document.querySelector(".frases")
 const body = document.querySelector('body');
 
@@ -24,7 +24,7 @@ function startReloj() {
     const semana = diasSemana[day]
 
 
-    container.innerHTML = `<section class="center"><div id="hora">${horas} : ${minutos} : ${segundos}</div><div id="fecha">${dia} / ${mes} / ${año} <p id="semana">${semana}</p> </div></section>`;
+    containerReloj.innerHTML = `<section class="center"><div id="hora">${horas} : ${minutos} : ${segundos}</div><div id="fecha">${dia} / ${mes} / ${año} <p id="semana">${semana}</p> </div></section>`;
     setTimeout(function () { startReloj() }, 1000)
 
     if (horas > 0 && horas < 7) { frases.innerHTML = "Es hora de descansar" }

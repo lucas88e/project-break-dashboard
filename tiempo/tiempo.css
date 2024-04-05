@@ -1,4 +1,4 @@
-#container{
+#containerTiempo{
     display: flex;
     justify-content: center;
     gap:3rem;
@@ -20,5 +20,6 @@ body{
 }
 #link{
     text-decoration: none;
-    color:wheat
+    font-size: 30px;
+    margin-left: 30px;
 }

@@ -1,27 +1,41 @@
-body{display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;}
-
-#nombreEnlace{
-    width: 400px;
+h1{
+    text-align: center;
+    color: white;
 }
+#enlace{width: 400px;}
+#nombreEnlace{width: 400px;}
 
-#enlace{
-    width: 400px;
-}
 #btnEnlace{
     background-color: rgb(67, 118, 226);
     padding: 20px;
     border-radius: 25px;
+    color: white;
 }
-#container{
-    background-color: gainsboro;
+
+#containerEnlace {
+    background-color: rgba(97, 91, 91, 0.781);
     padding: 50px;
     list-style: none;
-    
+    border-radius: 25px;
+
 }
+
+#links {
+    text-decoration: none;
+    color: red;
+
+
+}
+#sectionLink{
+    text-align: center;
+    color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 10px;}
 #link{
     text-decoration: none;
-    color:wheat
+    font-size: 30px;
+    margin-left: 30px;
 }

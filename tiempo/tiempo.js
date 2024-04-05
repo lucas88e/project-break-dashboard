@@ -1,8 +1,8 @@
-const city = prompt("Introduce el nombre de la ciudad de la que quieras saber los datos del clima")
+// const city = prompt("Introduce el nombre de la ciudad de la que quieras saber los datos del clima")
+const city = "Tomares"
 const apiKey = "3c867f662d9c4961911195952242203"
-const container = document.getElementById("container")
+const containerTiempo = document.getElementById("containerTiempo")
 const containerDos = document.getElementById("containerDos")
-const fecha = "2024-05-30"
 
 fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&aqi=no`)
     .then((response) => {
@@ -13,7 +13,6 @@ fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&aqi=n
         return response.json()
     })
     .then((data) => {
-        console.log(data)
         const hoy =data.forecast.forecastday[0].date
         const nombre = (data.location.name)
         const pais = (data.location.country)
@@ -23,7 +22,7 @@ fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&aqi=n
         const viento = data.current.wind_kph
         const humedad = (data.current.humidity)
         const img = data.current.condition.icon
-        container.innerHTML = `<div id="container"><img src=${img}><p>${hoy}<p>${nombre} / ${pais}</p> <p>${temperatura}ºC</p> <p>${clima}</p> <p> Precipitaciones:  ${lluvia}%</p>
+        containerTiempo.innerHTML = `<h2>El Tiempo en ${nombre} / ${pais}</h2><div id="containerTiempos"><img id="imgTiempo" src=${img}><p>${hoy} <p>${temperatura}ºC</p> <p>${clima}</p> <p> Precipitaciones:  ${lluvia}%</p>
     <p> Viento: ${viento} km/h</p><p> Humedad: ${humedad} %</p></div>`
 
     })

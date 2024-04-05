@@ -21,6 +21,6 @@ export function randomImg(){
         body.style.backgroundSize ="cover" 
         body.style.backgroundPosition ="center"
 
-          setInterval(function () { randomImg() }, 15000)
+          setInterval(function () { randomImg() }, 150000)
        }
      
