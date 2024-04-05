@@ -1,6 +1,7 @@
-h1{text-align: center;}
+h1{text-align: center;
+color: wheat;}
 #hora{
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     font-weight: 900;
     background-color: aqua;
@@ -9,8 +10,13 @@ h1{text-align: center;}
     padding: 25px;
 
 }
+#link{
+    text-decoration: none;
+    color:wheat
+}
 body{
-    background-image: url("yue-wu-753L05Oz-1M-unsplash.jpg ");
+    color:white;
+  
 
     object-fit: contain;
     display: flex;
@@ -18,21 +24,25 @@ body{
     align-items: center;
     flex-direction: column;
     gap:25px;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #fecha{
-    text-align: center;
+ 
     font-size: 30px;
     border-radius: 25px;
-    text-align: center;
+    justify-content: center;
+ 
     font-weight: 900;
-    background-color: aqua;
+    
+    background-color: rgb(194, 206, 149);
     width: fit-content;
     padding: 25px;
     display: flex;
 align-items: center;
+margin-top: 25px;
 }
 .frases{
     padding: 25px;
@@ -43,4 +53,8 @@ align-items: center;
     font-size: 20px;   
     color:blue;
     font-weight: bold;
+}
+#semana{
+    color:rgb(179, 27, 27);
+    margin-left:25px
 }

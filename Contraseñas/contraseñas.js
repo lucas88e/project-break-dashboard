@@ -2,22 +2,25 @@
 const container = document.getElementById("container")
 const btnContraseña = document.getElementById("btnContraseña")
 const inputNumb = document.getElementById("inputNumb")
+import { randomImg } from "../reloj/function.js";
+randomImg()
+
 
 function generarContraseña(length) {
     let password = ""
     for (let i = 0; i < length; i++) {
         const simbolos = "!@#$%^&*()-_=+]"
-        const simbolRandom = Math.floor(Math.random() * simbolos.length)
+        const simbolRandom = Math.floor(Math.random() * simbolos.length) 
         const simboloRandom = simbolos.charAt(simbolRandom)
         const numberRandon = Math.floor(Math.random() * (9 - 0) + 0)
         const mayusculas ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-        const mayusRandom = Math.floor(Math.random() * mayusculas.length)
+        const mayusRandom = Math.floor(Math.random() * mayusculas.length) 
         const mayusculasRandom = mayusculas.charAt(mayusRandom)
         const minusculas= "abcdefghijklmnopqrstuvwxyz"
         const minusRandom = Math.floor(Math.random() * minusculas.length)
         const minusculaRandom = minusculas.charAt(minusRandom)
         console.log(minusculaRandom)
-        let conjunto = Math.floor(Math.random() * 4)
+        let conjunto = Math.floor(Math.random() * 4) //Elegir aleatoriamente uno de los 4 casos, mayusculas, numeros, simbolos y minusculas
         switch (conjunto) {
             case 0:
                 password += mayusculasRandom;
@@ -42,7 +45,7 @@ function generarContraseña(length) {
 
 function random() {
 
-    let length = parseInt(inputNumb.value)
+    let length = parseInt(inputNumb.value) // Función para selecionar la longitud de caracteres introducida en el input
     let password = generarContraseña(length)
 
     container.innerHTML = password
@@ -51,4 +54,3 @@ function random() {
 btnContraseña.addEventListener("click", () => {
     random()
 })
-random()

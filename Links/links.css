@@ -1,0 +1,27 @@
+body{display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;}
+
+#nombreEnlace{
+    width: 400px;
+}
+
+#enlace{
+    width: 400px;
+}
+#btnEnlace{
+    background-color: rgb(67, 118, 226);
+    padding: 20px;
+    border-radius: 25px;
+}
+#container{
+    background-color: gainsboro;
+    padding: 50px;
+    list-style: none;
+    
+}
+#link{
+    text-decoration: none;
+    color:wheat
+}

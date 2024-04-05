@@ -1,8 +1,9 @@
-const city = "Tomares"
-const apiKey = "3c867f662d9c4961911195952242203 "
+const city = prompt("Introduce el nombre de la ciudad de la que quieras saber los datos del clima")
+const apiKey = "3c867f662d9c4961911195952242203"
 const container = document.getElementById("container")
 const containerDos = document.getElementById("containerDos")
 const fecha = "2024-05-30"
+
 fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&aqi=no`)
     .then((response) => {
         if (!response.ok) {
@@ -52,3 +53,5 @@ fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=
         // containerDos.innerHTML = `${fecha}`
 
     })
+    import { randomImg } from "../reloj/function.js";
+randomImg()
