@@ -44,11 +44,21 @@ function generarContraseña(length) {
 
 
 function random() {
+    const simbolos = "!@#$%^&*()-_=+]"
+    const simbolRandom = Math.floor(Math.random() * simbolos.length) 
+    const simboloRandom = simbolos.charAt(simbolRandom)
+    const numberRandon = Math.floor(Math.random() * (9 - 0) + 0)
+    const mayusculas ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    const mayusRandom = Math.floor(Math.random() * mayusculas.length) 
+    const mayusculasRandom = mayusculas.charAt(mayusRandom)
+    const minusculas= "abcdefghijklmnopqrstuvwxyz"
+    const minusRandom = Math.floor(Math.random() * minusculas.length)
+    const minusculaRandom = minusculas.charAt(minusRandom)
 
-    let length = parseInt(inputNumb.value) // Función para selecionar la longitud de caracteres introducida en el input
+    let length = parseInt(inputNumb.value) -4// Función para selecionar la longitud de caracteres introducida en el input menos 4 que tienen que ser obligatoriamente cada caracter
     let password = generarContraseña(length)
 
-    containerContraseñas.innerHTML = `Aquí tiene su contraseña segura:<p>${password}</p>`
+    containerContraseñas.innerHTML = `Aquí tiene su contraseña segura:<p>${simboloRandom} ${minusculaRandom}${mayusculasRandom}${numberRandon}${password}</p>`
 
 }
 btnContraseña.addEventListener("click", () => {
