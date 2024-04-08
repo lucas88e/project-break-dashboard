@@ -5,17 +5,22 @@ color: wheat;}
     text-align: center;
     font-weight: 900;
     background-color: aqua;
-    width: fit-content;
     border-radius: 25px; 
     padding: 25px;
-
+    margin-left:600px ;
+    margin-right:600px ;
+    
 }
 #link{
     text-decoration: none;
     font-size: 30px;
     margin-left: 30px;
 }
-body{
+body{color: white;
+   
+  
+}
+#containerReloj{
     color:white;
   
 
@@ -24,12 +29,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap:25px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
+    gap:25px;}
 #fecha{
  
     font-size: 30px;
@@ -39,11 +39,13 @@ body{
     font-weight: 900;
     
     background-color: rgb(194, 206, 149);
-    width: fit-content;
     padding: 25px;
     display: flex;
 align-items: center;
 margin-top: 25px;
+margin-left:600px ;
+margin-right:600px ;
+
 }
 .frases{
     padding: 25px;
@@ -54,6 +56,9 @@ margin-top: 25px;
     font-size: 20px;   
     color:blue;
     font-weight: bold;
+    margin-left:600px ;
+margin-right:600px ;
+
 }
 #semana{
     color:rgb(179, 27, 27);

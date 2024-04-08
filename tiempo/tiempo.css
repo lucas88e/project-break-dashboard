@@ -1,9 +1,13 @@
-#containerTiempo{
-    display: flex;
-    justify-content: center;
-    gap:3rem;
-   
-}
+
+    #containerTiempos {
+        justify-content: center;
+        display: flex;
+        gap: 3rem;
+        font-size: 25px;
+    
+    }
+    h2{text-align: center;}
+
 #containerDos{
     display: flex;
     justify-content: center;
