@@ -1,0 +1,29 @@
+1- Contraseñas:
+    He utilizado un switch case que aunque no lo habia utilizado nunca lo entendí y es la mejor forma 
+    que vi. Elige aleatoriamente cada caso pero no se si hay que hacerlo con condicionales. Lo que más me costo tambien fue que aparecieran los caracteres que se selecionaban 
+    en el input pero consegui encontrar la forma creando una variable length con la longitud introducida en el input y luego introdcirla en la 
+    funcion generarcontraseña como parametro
+
+
+2- El tiempo:
+
+    Lo que mas me costo fue quitar la fecha para que solo me saliese la hora con dos split y tengo mas problemas con el CSS porque no se como reducir el tamaño de tanta informacion
+    y que me quede una ventana flotante pero la informacion si lo entendí todo pero no se darle la forma con CSS  así se me quedo muy feo 
+
+3- Reloj:
+    El mes me falla 
+    Bien siguiendo la documentacion con el date fui sacando los datos que pedían lo que tuve que buscar era como añadir el 0 delante cuando solo había un digito y encontré varias formas
+    pero la que mas me gustó fue esa con el .tostring y . padstart que solo cuando hay un digito te añade un cero delante.
+    Mi duda en la condicional es porque no sé aun si cambia de frase a en punto o a y 1 minuto que no es eso si lo entendí bien.
+
+4- Bacground fotos
+
+    He descargado las fotos pero no se muy bien como hacerlo con todas la verdad he conseuido poner una con el CSS y otra con el DOM y cambia pero no entiendo muy bien el funcionamiento y no 
+    se como hacer el matrandom si a toda la carpeta o no se tendre que ver un tutorial.
+
+5-Links
+
+El localStorage me cuesta bastante comprenderlo la verdad y los ejercicios que hicimos es lo que peor se me dio por eso lo he dejado para el final
+
+
+Marketplace not found, using fallback 127.0.0.1:5500 ESto que es en la consola
