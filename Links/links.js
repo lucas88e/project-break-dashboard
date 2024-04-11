@@ -7,7 +7,7 @@ const body = document.querySelector('body');
 
 import { randomImg } from "../reloj/function.js";
 
-randomImg("../assets/imgs")
+randomImg("../assets")
 function mostrarEnlace(enlace) {
     let nombres = nombreLink.value.trim
 

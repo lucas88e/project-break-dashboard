@@ -53,4 +53,4 @@ fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=
 
     })
     import { randomImg } from "/reloj/function.js";
-randomImg("../assets/imgs")
+randomImg("../assets")

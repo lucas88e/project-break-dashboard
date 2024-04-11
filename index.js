@@ -1,4 +1,4 @@
 
-import  {randomImg}  from "/reloj/function.js";
-randomImg("./assets/imgs")
+import  {randomImg}  from ".reloj/function.js";
+randomImg("./assets")
  

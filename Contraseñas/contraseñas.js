@@ -63,4 +63,4 @@ btnContraseña.addEventListener("click", () => {
     random()
 })
 import { randomImg } from "/reloj/function.js";
-randomImg("../assets/imgs")
+randomImg("../assets")
