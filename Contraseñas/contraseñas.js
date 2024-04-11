@@ -47,7 +47,7 @@ function random() {
     const simbolos = "!@#$%^&*()-_=+]"
     const simbolRandom = Math.floor(Math.random() * simbolos.length) 
     const simboloRandom = simbolos.charAt(simbolRandom)
-    const numberRandon = Math.floor(Math.random() * (9 - 0) + 0)
+    const numberRandon = Math.floor(Math.random() * 9)
     const mayusculas ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     const mayusRandom = Math.floor(Math.random() * mayusculas.length) 
     const mayusculasRandom = mayusculas.charAt(mayusRandom)
