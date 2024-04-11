@@ -1,5 +1,5 @@
 
-export function randomImg(){
+ function randomImg(){
     const body = document.querySelector('body');
 
         let backgrounds = [];
@@ -23,4 +23,4 @@ export function randomImg(){
 
           setInterval(function () { randomImg() }, 150000)
        }
-     
+     export {randomImg}
