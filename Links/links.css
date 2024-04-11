@@ -11,6 +11,12 @@ h1{
     border-radius: 25px;
     color: white;
 }
+#btnEnlace:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+
+}
 
 #containerEnlace {
     background-color: rgba(97, 91, 91, 0.781);

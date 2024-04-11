@@ -24,8 +24,13 @@ h1{text-align: center;}
 
 }
 button{
-    background-color: rgba(27, 27, 240, 0.836);
-    color: white;
+    background-color: rgb(67, 118, 226);    color: white;
     padding: 10px;
     border-radius: 25px;
+}
+#btnContraseña:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+
 }

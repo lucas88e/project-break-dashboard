@@ -38,7 +38,7 @@ function startReloj() {
 
 }
 startReloj()
-import { randomImg } from "../reloj/function.js";
+import { randomImg } from "/reloj/function.js";
 
-randomImg()
+randomImg("../assets/imgs")
 

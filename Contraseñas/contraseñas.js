@@ -2,8 +2,6 @@
 const containerContraseñas = document.getElementById("containerContraseñas")
 const btnContraseña = document.getElementById("btnContraseña")
 const inputNumb = document.getElementById("inputNumb")
-import { randomImg } from "../reloj/function.js";
-randomImg()
 
 
 function generarContraseña(length) {
@@ -58,9 +56,11 @@ function random() {
     let length = parseInt(inputNumb.value) -4// Función para selecionar la longitud de caracteres introducida en el input menos 4 que tienen que ser obligatoriamente cada caracter
     let password = generarContraseña(length)
 
-    containerContraseñas.innerHTML = `Aquí tiene su contraseña segura:<p>${simboloRandom} ${minusculaRandom}${mayusculasRandom}${numberRandon}${password}</p>`
+    containerContraseñas.innerHTML = `Aquí tiene su contraseña segura:<p> ${minusculaRandom}${simboloRandom}${mayusculasRandom}${numberRandon}${password}</p>`
 
 }
 btnContraseña.addEventListener("click", () => {
     random()
 })
+import { randomImg } from "/reloj/function.js";
+randomImg("../assets/imgs")

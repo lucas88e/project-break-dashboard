@@ -117,3 +117,29 @@ h1{
     padding: 30px;
     text-align: center;
 }
+#btnEnlace{
+    background-color: rgb(67, 118, 226);
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+    
+}
+#btnEnlace:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+
+}
+#btnContraseña{
+    background-color: rgb(67, 118, 226);
+    padding: 20px;
+    border-radius: 25px;
+    color: white;
+    
+}
+#btnContraseña:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+
+}
