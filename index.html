@@ -14,51 +14,54 @@
     <a class="link" href="Contraseñas/contraseñas.html">🔐</a>
     <a class="link" href="reloj/reloj.html">🕔</a>
     <a class="link" href="Links/links.html">🔗</a>
-   
-<section id="total">
-   
 
-    <section id="sectionEnlace">
-
-        <h2>Añade un enlace de tu interés</h2>
+    <section id="total">
 
 
-        <form>
-            <input type="text" placeholder="Nombre de tu enlace" id="nombreEnlace">
-            <p><input type="text" placeholder="Pega aquí la URL" id="enlace"></p>
-        </form>
-        <button id="btnEnlace">Añade tu enlace</button>
-        <ul id="containerEnlace">
+        <section id="sectionEnlace">
 
-        </ul>
+            <h2>Añade un enlace de tu interés</h2>
+
+
+            <form>
+                <input type="text" placeholder="Nombre de tu enlace" id="nombreEnlace">
+                <p><input type="text" placeholder="Pega aquí la URL" id="enlace"></p>
+            </form>
+            <button id="btnEnlace">Añade tu enlace</button>
+            <ul id="containerEnlace">
+
+            </ul>
+        </section>
+        <section id="sectionReloj">
+            <h2>Son las...</h2>
+            <div class="containerReloj">
+
+            </div>
+            <span class="center">
+                <div class="frases"></div>
+            </span>
+        </section>
+        <section id="sectionContraseñas">
+            <h2>Generador de contraseñas</h2>
+
+
+            <p>Elige la cantidad de caracteres y pulsa el botón para generar una contraseña segura y aleatoria</p>
+            <div id="btnInput">
+                <input id="inputNumb" type="number" min="12" max="50">
+                <button id="btnContraseña">Generar contraseña</button>
+            </div>
+            <div id="containerContraseñas"></div>
+        </section>
     </section>
-    <section id="sectionReloj"> 
-        <h2>Son las...</h2>
-        <div class="containerReloj">
-
-        </div>
-        <span class="center">
-            <div class="frases"></div>
-        </span>
-    </section>
-    <section id="sectionContraseñas">
-        <h2>Generador de contraseñas</h2>
+    <div id="tiempoCenter">
+        <section id="sectionTiempo">
 
 
-        <p>Elige la cantidad de caracteres y pulsa el botón para generar una contraseña segura y aleatoria</p>
-        <input id="inputNumb" type="number" min="12" max="50">
-
-        <button id="btnContraseña">Generar contraseña</button>
-        <div id="containerContraseñas"></div>
-    </section>
-</section>
-    <section id="sectionTiempo">
-      
-
-        <div id="containerTiempo">
-        </div>
-        <div id="containerDos"></div>
-    </section>
+            <div id="containerTiempo">
+            </div>
+            <div id="containerDos"></div>
+        </section>
+    </div>
     <script src="./Contraseñas/contraseñas.js" type="module"></script>
 
 

@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./contraseñas.css">
     <title>Generador de contraseñas</title>
 </head>
+
 <body>
     <h1>Generador de contraseñas</h1>
     <a id="link" href="../index.html">🏠</a>
-<section id="sectionContraseñas">
-    <p>Elige la cantidad de caracteres y pulsa el botón para generar una contraseña segura y aleatoria</p>
-    <input id="inputNumb" type="number" min="12" max="50">
+    <section id="sectionContraseñas">
+        <p>Elige la cantidad de caracteres y pulsa el botón para generar una contraseña segura y aleatoria</p>
+        <div id="btnInput">
+            <input id="inputNumb" type="number" min="12" max="50">
+            <button id="btnContraseña">Generar contraseña</button>
+        </div>
 
-    <button id="btnContraseña">Generar contraseña</button>
-    <div id="containerContraseñas"></div></section>
-    <script src="contraseñas.js"  type="module"
-    ></script>
+        <div id="containerContraseñas"></div>
+    </section>
+    <script src="contraseñas.js" type="module"></script>
 </body>
+
 </html>

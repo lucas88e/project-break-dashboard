@@ -2,7 +2,7 @@ body {
     color: white;
 
 }
-
+h2{font-size: 35px;}
 .link {
     text-decoration: none;
     color: wheat;
@@ -20,9 +20,18 @@ body {
 #links {
     text-decoration: none;
     color: red;
+    padding: 25px;
 
 
 }
+.btnRemove{
+    background-color: black;
+    color: white;
+}
+.btnRemove:hover{cursor: pointer;
+    
+transform: scale(1.1);}
+
 
 #sectionReloj {
     text-align: center;
@@ -48,12 +57,19 @@ body {
     margin-left: 50px;
     margin-right: 50px;
 }
+#tiempoCenter{
+display: flex;
+justify-content: center;
+text-align: center;}
 
 #sectionTiempo {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
+    width: 900px;
+    height: auto;
+    overflow: auto;
     text-align: center;
+    background-color: rgba(97, 91, 91, 0.781);
+    border-radius: 25px;
 }
 
 #containerTiempos {
@@ -61,10 +77,17 @@ body {
     display: flex;
     gap: 3rem;
     font-size: 25px;
+    width: 100vw;
+    flex-wrap: wrap;
 
 }
-#imgTiempo{
-    width:100px;
+#horas{
+    background-color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+#imgTiempo {
+    width: 100px;
     height: auto;
 }
 
@@ -72,74 +95,111 @@ body {
     display: flex;
     justify-content: center;
     gap: 3rem;
-    flex-wrap: wrap;
 
     align-items: center;
 }
-#fecha{
- 
+
+#fecha {
+
     font-size: 30px;
     border-radius: 25px;
     justify-content: center;
- 
+
     font-weight: 900;
-    
+
     background-color: rgba(194, 206, 149, 0.932);
     width: fit-content;
     padding: 25px;
     display: flex;
-align-items: center;
-margin-top: 25px;
+    align-items: center;
+    margin-top: 25px;
 }
-.frases{
+
+.frases {
     padding: 25px;
-    background-color:rgba(172, 255, 47, 0.726) ;
+    background-color: rgba(172, 255, 47, 0.726);
     display: flex;
     justify-content: center;
-    border-radius: 25px; 
-    font-size: 20px;   
-    color:blue;
+    border-radius: 25px;
+    font-size: 20px;
+    color: blue;
     font-weight: bold;
 }
-#semana{
-    color:rgb(179, 27, 27);
-    margin-left:25px
+
+#semana {
+    color: rgb(179, 27, 27);
+    margin-left: 25px
 }
-h1{
-    font-size: 25px ;
-}
-#containerContraseñas{
+
+
+
+#containerContraseñas {
     font-size: 35px;
     margin-top: 50px;
     color: wheat;
     background-color: rgba(97, 91, 91, 0.781);
     border-radius: 25px;
-    padding: 30px;
+    padding: 5px;
     text-align: center;
+    margin-bottom: 15px;
 }
-#btnEnlace{
+
+#btnEnlace {
     background-color: rgb(67, 118, 226);
     padding: 20px;
     border-radius: 25px;
     color: white;
-    
+
 }
-#btnEnlace:hover{
+
+#btnEnlace:hover {
     cursor: pointer;
     transform: scale(1.1);
 
 
 }
-#btnContraseña{
+
+#btnContraseña {
     background-color: rgb(67, 118, 226);
     padding: 20px;
     border-radius: 25px;
     color: white;
-    
+
 }
-#btnContraseña:hover{
+
+#btnContraseña:hover {
     cursor: pointer;
     transform: scale(1.1);
-    
 
+
+}
+
+#inputNumb{
+    border-radius: 50px 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: burlywood;
+    color: rgb(141, 9, 35);
+    font-weight: bolder;
+    font-size: 25px;
+}
+#inputNumb:hover{
+    cursor: pointer;
+}
+#btnInput{
+    gap:35px;
+    display: flex;
+    justify-content: center;
+}
+#nombreEnlace{
+    border-radius: 25px;
+    background-color: antiquewhite;
+    width: 200px;
+}
+#enlace{
+    border-radius: 25px;
+    background-color: antiquewhite;
+    width: 200px;
 }

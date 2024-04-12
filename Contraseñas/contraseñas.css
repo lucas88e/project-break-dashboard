@@ -10,6 +10,12 @@ h1{text-align: center;}
 }
 #sectionContraseñas{
     text-align: center;
+    
+}
+#btnInput{
+    gap:35px;
+    display: flex;
+    justify-content: center;
 }
 #containerContraseñas{
     font-size: 35px;
@@ -23,14 +29,29 @@ h1{text-align: center;}
      margin-right: 35rem;
 
 }
-button{
+#btnContraseña{
     background-color: rgb(67, 118, 226);    color: white;
-    padding: 10px;
+    padding: 15px;
     border-radius: 25px;
+    font-size: 25px;
 }
 #btnContraseña:hover{
     cursor: pointer;
     transform: scale(1.1);
     
 
+}
+#inputNumb{
+    border-radius: 50px 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: burlywood;
+    color: rgb(141, 9, 35);
+    font-weight: bolder;
+    font-size: 25px;
+}
+#inputNumb:hover{
+    cursor: pointer;
 }

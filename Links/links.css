@@ -2,8 +2,15 @@ h1{
     text-align: center;
     color: white;
 }
-#enlace{width: 400px;}
-#nombreEnlace{width: 400px;}
+h2{
+font-size:30px ;}
+#enlace{width: 400px;
+    border-radius: 25px;
+    background-color: antiquewhite;
+}
+#nombreEnlace{width: 400px;
+    border-radius: 25px;
+    background-color: antiquewhite;}
 
 #btnEnlace{
     background-color: rgb(67, 118, 226);
@@ -17,6 +24,13 @@ h1{
 
 
 }
+.btnRemove{
+    background-color: black;
+    color: white;
+}
+.btnRemove:hover{cursor: pointer;
+    
+transform: scale(1.1);}
 
 #containerEnlace {
     background-color: rgba(97, 91, 91, 0.781);
@@ -29,6 +43,7 @@ h1{
 #links {
     text-decoration: none;
     color: red;
+    padding: 10px;
 
 
 }

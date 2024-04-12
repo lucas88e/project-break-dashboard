@@ -1,5 +1,5 @@
 // const city = prompt("Introduce el nombre de la ciudad de la que quieras saber los datos del clima")
-const city = "Tomares"
+const city = prompt("Elige tu ciudad para conocer el clima de hoy")
 const apiKey = "3c867f662d9c4961911195952242203"
 const containerTiempo = document.getElementById("containerTiempo")
 const containerDos = document.getElementById("containerDos")
@@ -27,7 +27,7 @@ fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&aqi=n
 
     })
 
-fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=4&aqi=si&alerts=si
+fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=0&aqi=si&alerts=si
 
 `)
     .then((response) => {
@@ -44,12 +44,10 @@ fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=
         for (let i = 0; i < horas.length; i++) {
 
             const imgs = (horas[i].condition.icon)
-            containerDos.innerHTML += `<div id="containerDos"><p>${horas[i].time.split(" ")[1].split(":")[0]}: 00 h</p>${horas[i].temp_c} Grados <p>${horas[i].chance_of_rain} % probabilidad lluvia</p>
+            containerDos.innerHTML += `<div id="containerDos"><p id="horas">${horas[i].time.split(" ")[1].split(":")[0]}: 00 h</p>${horas[i].temp_c} Grados <p>${horas[i].chance_of_rain} % probabilidad lluvia</p>
              <img src=${imgs}></div> `
 
         }
-
-        // containerDos.innerHTML = `${fecha}`
 
     })
     import { randomImg } from "../reloj/function.js";
