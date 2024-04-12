@@ -10,14 +10,13 @@ function generarContraseña(length) {
         const simbolos = "!@#$%^&*()-_=+]"
         const simbolRandom = Math.floor(Math.random() * simbolos.length) 
         const simboloRandom = simbolos.charAt(simbolRandom)
-        const numberRandon = Math.floor(Math.random() * (9 - 0) + 0)
+        const numberRandom = Math.floor(Math.random() * 9);
         const mayusculas ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         const mayusRandom = Math.floor(Math.random() * mayusculas.length) 
         const mayusculasRandom = mayusculas.charAt(mayusRandom)
         const minusculas= "abcdefghijklmnopqrstuvwxyz"
         const minusRandom = Math.floor(Math.random() * minusculas.length)
         const minusculaRandom = minusculas.charAt(minusRandom)
-        console.log(minusculaRandom)
         let conjunto = Math.floor(Math.random() * 4) //Elegir aleatoriamente uno de los 4 casos, mayusculas, numeros, simbolos y minusculas
         switch (conjunto) {
             case 0:
@@ -27,7 +26,7 @@ function generarContraseña(length) {
                 password += minusculaRandom
                 break;
             case 2:
-                password += numberRandon
+                password += numberRandom
                 break;
             case 3:
                 password += simboloRandom
@@ -45,7 +44,7 @@ function random() {
     const simbolos = "!@#$%^&*()-_=+]"
     const simbolRandom = Math.floor(Math.random() * simbolos.length) 
     const simboloRandom = simbolos.charAt(simbolRandom)
-    const numberRandon = Math.floor(Math.random() * 9)
+    const numberRandom = Math.floor(Math.random() * 9)
     const mayusculas ="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     const mayusRandom = Math.floor(Math.random() * mayusculas.length) 
     const mayusculasRandom = mayusculas.charAt(mayusRandom)
@@ -56,7 +55,7 @@ function random() {
     let length = parseInt(inputNumb.value) -4// Función para selecionar la longitud de caracteres introducida en el input menos 4 que tienen que ser obligatoriamente cada caracter
     let password = generarContraseña(length)
 
-    containerContraseñas.innerHTML = `Aquí tiene su contraseña segura:<p> ${minusculaRandom}${simboloRandom}${mayusculasRandom}${numberRandon}${password}</p>`
+    containerContraseñas.innerHTML = `Aquí tiene su contraseña segura:<p> ${minusculaRandom}${simboloRandom}${mayusculasRandom}${numberRandom}${password}</p>`
 
 }
 btnContraseña.addEventListener("click", () => {

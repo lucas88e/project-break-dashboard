@@ -1,5 +1,6 @@
 body {
     color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 }
 h2{font-size: 35px;}
@@ -11,9 +12,10 @@ h2{font-size: 35px;}
 
 #containerEnlace {
     background-color: rgba(97, 91, 91, 0.781);
-    padding: 50px;
+    padding: 30px;
     list-style: none;
     border-radius: 25px;
+    width: fit-content;
 
 }
 
@@ -21,12 +23,14 @@ h2{font-size: 35px;}
     text-decoration: none;
     color: red;
     padding: 25px;
+    font-size: 25px;
 
 
 }
 .btnRemove{
     background-color: black;
     color: white;
+    font-size: 20px;
 }
 .btnRemove:hover{cursor: pointer;
     
@@ -63,13 +67,14 @@ justify-content: center;
 text-align: center;}
 
 #sectionTiempo {
-
-    width: 900px;
-    height: auto;
+    margin-top: 20px;
+    width: 1000px;
+    height: 300px;
     overflow: auto;
     text-align: center;
     background-color: rgba(97, 91, 91, 0.781);
     border-radius: 25px;
+
 }
 
 #containerTiempos {
@@ -77,25 +82,26 @@ text-align: center;}
     display: flex;
     gap: 3rem;
     font-size: 25px;
-    width: 100vw;
-    flex-wrap: wrap;
-
+    align-items: center;
+padding: 25px;
 }
 #horas{
     background-color: brown;
     font-size: 20px;
     font-weight: bold;
 }
-#imgTiempo {
-    width: 100px;
-    height: auto;
+.grados{
+    font-size: 20px;
 }
+.imgTiempo{
+    width: 100px;
+  }
 
 #containerDos {
     display: flex;
     justify-content: center;
-    gap: 3rem;
-
+    gap: 1rem;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -197,9 +203,12 @@ text-align: center;}
     border-radius: 25px;
     background-color: antiquewhite;
     width: 200px;
+    height:40px;
 }
 #enlace{
     border-radius: 25px;
     background-color: antiquewhite;
     width: 200px;
+    height:40px;
+
 }

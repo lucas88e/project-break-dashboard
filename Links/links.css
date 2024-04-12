@@ -1,36 +1,51 @@
-h1{
+h1 {
     text-align: center;
     color: white;
 }
-h2{
-font-size:30px ;}
-#enlace{width: 400px;
+
+h2 {
+    font-size: 30px;
+}
+
+#enlace {
+    width: 400px;
     border-radius: 25px;
     background-color: antiquewhite;
-}
-#nombreEnlace{width: 400px;
-    border-radius: 25px;
-    background-color: antiquewhite;}
+    height: 40px;
 
-#btnEnlace{
+}
+
+#nombreEnlace {
+    width: 400px;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    height: 40px;
+}
+
+#btnEnlace {
     background-color: rgb(67, 118, 226);
     padding: 20px;
     border-radius: 25px;
     color: white;
 }
-#btnEnlace:hover{
+
+#btnEnlace:hover {
     cursor: pointer;
     transform: scale(1.1);
 
 
 }
-.btnRemove{
+
+.btnRemove {
     background-color: black;
     color: white;
 }
-.btnRemove:hover{cursor: pointer;
-    
-transform: scale(1.1);}
+
+.btnRemove:hover {
+    cursor: pointer;
+
+    transform: scale(1.1);
+}
 
 #containerEnlace {
     background-color: rgba(97, 91, 91, 0.781);
@@ -44,18 +59,22 @@ transform: scale(1.1);}
     text-decoration: none;
     color: red;
     padding: 10px;
+    font-size: 30px;
 
 
 }
-#sectionLink{
+
+#sectionLink {
     text-align: center;
     color: white;
     display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-gap: 10px;}
-#link{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#link {
     text-decoration: none;
     font-size: 30px;
     margin-left: 30px;
